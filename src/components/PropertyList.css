@@ -1,0 +1,41 @@
+
+/* Styling for the property list container */
+.property-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Styling for individual property cards */
+  .property-card {
+    width: calc(90%); /* Calculate the width for 3 cards in a row with some spacing */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Styling for property card image */
+  .property-card img {
+    width: 100%;
+    height: auto;
+    max-height: 200px; /* Adjust the max-height as needed */
+    object-fit: cover;
+  }
+  
+  /* Styling for property details */
+  .property-details {
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .property-details h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .property-details p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  

@@ -1,0 +1,24 @@
+/* CSS for CityTabs component */
+.city-tabs {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .city-tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .city-tab:hover {
+    background-color: #ddd;
+  }
+  
+  .city-tab.active {
+    background-color: #007bff; /* Change to your desired active tab color */
+    color: #fff;
+  }
+  
